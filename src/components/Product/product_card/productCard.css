@@ -1,0 +1,151 @@
+#productCardContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 0 6.25rem 2rem;
+  align-items: center;
+  justify-content: space-around;
+}
+.product-card {
+  width: 23.75rem;
+  height: 28.125rem;
+  background-color: var(--bgWhite);
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: var(--borderRadius);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-card img {
+  height: 70%;
+}
+
+.context {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+}
+
+.context h4 {
+  font-size: var(--FontSize24px);
+  font-weight: var(--fontWeightSemiBold);
+  color: var(--headRed);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.actionDiv{
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.actionDiv button {
+  font-size: var(--fontSize16px);
+}
+#count{
+    display: flex;
+    align-items: center;
+    /* justify-content: center;
+    gap: 0.5rem;
+    margin-left: auto; */
+}
+
+#count button{
+    border: none;
+    outline: none;
+    /* width: 1rem;
+    height: 1rem; */
+    padding: 0 8px;
+    background-color: var(--textRed);
+    font-size: var(--FontSize24px);
+    font-weight: var(--fontWeightSemiBold);
+    border-radius: var(--borderRadius);
+    color: #fff;
+    margin: auto 0.5rem;
+}
+
+#count span {
+    font-size: var(--fontSize18px);
+    font-weight: var(--fontWeightSemiBold);
+    color: var(--headRed);
+    width: 2rem;
+    text-align: center;
+}
+/* -------------------------------------------------------------------------- */
+
+#actionBtn{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 6.5rem 2rem;
+}
+
+#actionBtn button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: none;
+}
+
+#actionBtn button img {
+  width: 3.75rem;
+}
+
+/* -------------------------------- */
+#prodNavBtns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#prodNavBtns .nav_btn img{
+
+  width: 3.75rem;
+}
+
+#searchBtn{
+  position: relative;
+  z-index: 1;
+}
+
+#searchBar{
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+#searchBar input{
+  position: absolute;
+  top: 0.5rem;
+  left: 4rem;
+  border: none;
+  /* outline: none; */
+  color: var(--darkRed);
+  padding: 0.7rem;
+  /* z-index: 10; */
+  font-size: var(--fontSize16px);
+}
+
+#searchBar input::placeholder{
+  color: var(--darkRed);
+  font-size: var(--fontSize18px);
+  font-weight: var(--fontWeightMedium);
+  opacity: 0.5;
+}
+
+#searchBar input:focus{
+  border: none;
+  outline: none;
+}

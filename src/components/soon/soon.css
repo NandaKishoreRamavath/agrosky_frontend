@@ -1,0 +1,16 @@
+#soon{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#soon h3{
+    font-size: var(--secHeaderSize);
+    color: var(--headRed);
+}
+
+#soon p{
+    font-size: var(--descTextSize);
+}

@@ -1,0 +1,19 @@
+:root{
+    --headerSize : 3rem;
+    --FontSize40px : 2.5rem;
+    --secHeaderSize : 2rem;
+    --FontSize24px : 1.5rem;
+    --descTextSize : 1.25rem;
+    --fontSize18px : 1.125rem;
+    --fontSize16px : 1rem;
+    --fontWeightRegular : 400;
+    --fontWeightMedium : 500;
+    --fontWeightSemiBold : 600;
+    --fontWeightBold : 700;
+    --fontWeightExtraBold : 800;
+    --darkRed : #850009;
+    --headRed : #A51C24;
+    --textRed: #FF111F;
+    --bgWhite : #F5F5F5;
+    --borderRadius : 0.625rem; /* 10px */
+}

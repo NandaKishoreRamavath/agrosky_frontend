@@ -1,0 +1,75 @@
+#supportCard{
+    position: relative;
+    z-index: 1;
+    width: 77.5rem;
+    margin: 2rem auto 0;
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--darkRed);
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid;
+    overflow: hidden;
+}
+
+#supportCard h3{
+    font-size: var(--secHeaderSize);
+    font-weight: var(--fontWeightSemiBold);
+    margin-bottom: 2.5rem;
+}
+
+#supportCardStats{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    gap: 2rem;
+    position: relative;
+    z-index: inherit;
+}
+
+.loanCard{
+    border: 1px solid;
+    width: 45%;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.loanCard h4{
+    font-size: var(--descTextSize);
+    font-weight: var(--fontWeightMedium);
+    margin-bottom: 0.8rem;
+}
+.loanCard ul{
+    list-style-type: disc;
+     list-style-position: inside;
+     font-size: var(--fontSize16px);
+    font-weight: var(--fontWeightRegular);
+    line-height: 1.8rem;
+}
+
+
+/* ---------------------------------------------------------------------------- */
+
+#bgcirclePattern{
+    width: 350px;
+    height: 350px;
+    right: -6rem;
+    top: -5rem;
+    border: 40px solid var(--textRed);
+    filter: blur(1px);
+}
+
+#bigCircle{
+      width: 230px;
+    height: 230px;
+        border: 7px solid var(--textRed);
+
+}
+
+#innerCircle{
+    width: 130px;
+    height: 130px;
+    background-color:  rgba(255,17,31,0.5);
+    border-radius: 50%;
+}

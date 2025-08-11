@@ -1,0 +1,113 @@
+footer{
+    width: 100%;
+    padding: 1rem 4rem;
+    background-color: var(--darkRed);
+}
+
+#brandLogo{
+    width: 10.5rem;
+}
+#footerTop{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+#footCntct h2{
+    color: #fff;
+    font-weight: var(--fontWeightExtraBold);
+    margin-bottom: 1.5rem;
+}
+
+#footCntct h2 span{
+    color: var(--textRed);
+    font-weight: var(--fontWeightBold);
+}
+#inputField{
+    position: relative;
+}
+#inputField input{
+    width: 40.5rem;
+    height: 3.75rem;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, .2);
+    font-size: var(--descTextSize);
+    color: #fff;
+    padding: 1rem;
+}
+
+#inputField button{
+    position: absolute;
+    width: 9rem;
+    height: 3rem;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    background-color: var(--headRed);
+    top: 6px;
+    right: 6px;
+    color: #fff;
+    font-size: var(--FontSize24px);
+    font-weight: var(--fontWeightMedium);
+}
+#footAdres{
+    display: flex;
+    align-items:baseline;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-right: 7rem;
+    /* width: 16rem; */
+}
+#footAdres ul{
+    font-size: var(--FontSize24px);
+    color: #fff;
+    list-style-type: none;
+}
+#footAdres li{
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content:baseline;
+    gap: 1rem;
+}
+
+/* --------------------------------------------- */
+
+#footerBottom{
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    gap: 5rem;
+    padding: 2rem 0 1rem;
+}
+#footerBottom ul{
+    list-style: none;
+    font-size: 1rem;
+    font-weight: var(--fontWeightRegular);
+    color: #fff;
+    line-height: 1.5rem;
+}
+
+#footerBottom .nav_header{
+    font-size: var(--FontSize24px);
+    font-weight: var(--fontWeightMedium);
+    line-height: 2.5rem;
+}
+#footEndText{
+    color: #fff;
+    text-align: center;
+    margin: 1rem 0;
+    font-weight: 200;
+}
+
+.links a:hover{
+    color:darkgrey;
+}
+
+.links a{
+    text-decoration: none;
+    color: #fff;
+}

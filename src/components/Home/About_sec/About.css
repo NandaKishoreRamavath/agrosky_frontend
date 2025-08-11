@@ -1,0 +1,37 @@
+#about{
+    background-color: var(--bgWhite);
+    padding: 50px 75px;
+}
+#about h3{
+       font-size: 24px; 
+       color: var(--textRed);
+       font-weight: 800;
+       padding-left: 5px;
+    }
+
+#about p{
+    padding: 30px 0px 30px 25px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.about_highlight{
+    color: var(--textRed);
+    font-weight: 500;
+}
+
+
+@media (max-width: 768px) {
+  #about {
+    padding: 30px 20px;
+  }
+
+  #about h2 {
+    font-size: 1.75rem;
+  }
+
+  #about p {
+    font-size: 1rem;
+    padding: 20px 0;
+  }
+}

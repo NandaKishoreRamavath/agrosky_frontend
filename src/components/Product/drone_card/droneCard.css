@@ -1,0 +1,72 @@
+#droneCard{
+    position: relative;
+    width: 77.5rem;
+    height: 29rem;
+    margin: 3.75rem auto;
+    background-color: var(--bgWhite);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: var(--borderRadius);
+}
+
+/* #droneCntnt{
+    position: relative;
+} */
+#droneCntnt img{
+    position: absolute;
+    height: 100%;
+}
+
+#droneContext{
+    position: absolute;
+    width: 65%;
+    top: 4rem;
+    padding-left: 3rem;
+}
+
+#droneContext h3{
+    font-size: var(--secHeaderSize);
+    font-weight: var(--fontWeightSemiBold);
+    color: var(--headRed);
+    margin: 1rem 0 0.25rem;
+}
+#droneContext h4{
+    font-size: var(--FontSize24px);
+    font-weight: var(--fontWeightMedium);
+    color: var(--headRed);
+    margin: 0 0 1.75rem;
+}
+#droneContext p{
+    font-size: var(--descTextSize);
+    font-weight: var(--fontWeightMedium);
+    width: 80%;
+    margin: 0 0 3rem;
+}
+
+#actionDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+
+#actionDiv button{
+    font-size: var(--descTextSize);
+}
+
+#actionDiv a{
+    font-size: var(--descTextSize);
+    color: var(--headRed);
+    font-weight: var(--fontWeightRegular);
+    text-decoration: none;
+}
+
+/* --------------------------------------------------------------------------- */
+
+.rCntnt img{
+    right: 0;
+}
+
+.rDesc{
+    right: -4.5rem;
+    /* text-align: right; */
+}

@@ -1,0 +1,221 @@
+#services {
+  width: 100%;
+  background-color: var(--bgWhite);
+  padding: 3.75rem 6.25rem 0.75rem;
+}
+
+#servLinks {
+  margin: auto;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.serv_name {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: var(--descTextSize);
+  font-weight: var(--fontWeightSemiBold);
+  border-bottom: 2px solid var(--headRed);
+  padding-bottom: 3px;
+}
+.serv_name_inactive {
+  border-bottom: none;
+}
+/* ------------------------------------------------------- */
+
+#service_carousal {
+  padding: 2.5rem 0;
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+.service_item_hidden {
+  display: none;
+}
+.serv_head {
+  font-size: var(--FontSize40px);
+  font-weight: var(--fontWeightSemiBold);
+  text-align: center;
+}
+
+/* -------------------------------------------------------- */
+
+#servContent {
+  margin: 2rem 7rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+}
+.grid_item {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px var(--darkRed);
+}
+
+/* --------------------------------------------------- */
+
+#servContGrids {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 2rem;
+}
+.servDesc {
+  width: 32.9rem;
+  height: 20.8rem;
+  background: linear-gradient(
+    130deg,
+    rgb(165, 28, 36),
+    rgba(165, 28, 36, 0.9),
+    rgba(255, 17, 31, 0.9)
+  );
+  color: #fff;
+  padding: 2rem 2.5rem;
+}
+.servDesc h3 {
+  font-size: var(--FontSize24px);
+  font-weight: var(--fontWeightBold);
+}
+.servDesc p {
+  margin: 0.5rem 0 1rem;
+  font-size: var(--fontSize18px);
+  font-weight: var(--fontWeightMedium);
+}
+.servDesc ul {
+  font-size: var(--fontSize18px);
+  font-weight: var(--fontWeightSemiBold);
+  width: 100%;
+  text-align: left;
+  display: block;
+  list-style-image: url("../../../Assets/check.png");
+  list-style-position: inside;
+}
+.servDesc li {
+  line-height: 2rem;
+}
+
+/* ----------------------------------------------------- */
+
+#servContGrids a {
+  text-decoration: none;
+  font-size: var(--descTextSize);
+  font-weight: var(--fontWeightSemiBold);
+  padding: 15px 35px;
+  background-color: var(--headRed);
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  letter-spacing: 1px;
+}
+
+/* ------------------------------------------------- */
+
+.servImg {
+  position: relative;
+  width: 26.15rem;
+  height: 30.9rem;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  transition: 0.4s ease-in-out;
+  box-shadow: 2px 2px 5px #777;
+}
+#gradientLayer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(133, 0, 9, 0.35), rgba(133, 0, 9, 0.35));
+  top: 0;
+  transition: 0.3s ease-in-out;
+}
+.servImg:hover #gradientLayer {
+  transform: translateY(34.375rem);
+}
+.servImg img {
+  width: 100%;
+  height: 100%;
+}
+
+/* ---------------------------------------------- */
+
+#navBtns {
+  margin: -0.5rem 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 1rem;
+}
+.serv_nav_btn {
+  background: none;
+  border: none;
+  outline: none;
+}
+.serv_nav_btn img {
+  width: 3rem;
+}
+
+/* --------------------------------------------------------------- */
+
+@media (max-width: 1024px) {
+  #servLinks {
+    width: 90%;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  #servContent {
+    margin: 1rem 2rem;
+    /* grid-template-columns: 1fr;
+    gap: 2rem; */
+    /* text-align: center; */
+
+    display:flex;
+    flex-direction: column-reverse;
+    gap: 2rem;
+    align-items: center; 
+  }
+
+  .servDesc {
+    width: 100%;
+    height: auto;
+  }
+
+  .servImg {
+    width: 21.15rem;
+    height: 25.9rem;
+  }
+
+  #navBtns {
+    margin: 1rem;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .servDesc h3 {
+    font-size: 1.25rem;
+  }
+
+  .servDesc p,
+  .servDesc ul {
+    font-size: 1rem;
+  }
+
+  .servImg {
+      width: 16.15rem;
+  height: 20.9rem;
+  }
+
+  #servLinks {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .serv_name {
+    font-size: 1rem;
+  }
+}
