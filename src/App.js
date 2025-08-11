@@ -21,8 +21,8 @@ const App = () => {
   useEffect(() => {
     const fetchFAQs = async () => {
       try {
-        const resFAQ = await axios.get("http://localhost:5000/faq");
-        const resProduct = await axios.get("http://localhost:5000/products");
+        const resFAQ = await axios.get("https://agrosky-backend.onrender.com/faq");
+        const resProduct = await axios.get("https://agrosky-backend.onrender.com/products");
         setFAQs(resFAQ.data);
 
         setProducts(resProduct.data);
