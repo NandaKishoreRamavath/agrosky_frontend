@@ -6,7 +6,7 @@
         "name": "DreamEagle YS-20 Transport Drone",
         "specifications": "20KG Payload, Multiple Mounts",
         "desc": "The Dreameagle YS-20 is a robust and versatile hexarotor drone designed to meet various transport needs with exceptional efficiency.",
-        "imgUrl": "../Assets/productDrones/DreamEagle.png",
+        "imgUrl": "../Assets/New folder/DreamEagle.png",
         "rCard" : true
         },
         {
@@ -15,7 +15,7 @@
         "name": "EFT E610P 10L 6 Axis Agricultural Drone",
         "specifications": "Precision Farming, Perfected 24/7",
         "desc": "The Kisan Agri Drone is engineered to elevate agricultural productivity through advanced technology and intelligent solutions.",
-        "imgUrl": "../Assets/productDrones/EFT.png",
+        "imgUrl": "../Assets/New folder/EFT.png",
         "rCard" : false
         }
     ]
